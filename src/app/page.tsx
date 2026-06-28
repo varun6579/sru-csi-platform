@@ -10,7 +10,6 @@ const Leaderboard = dynamic(() => import('@/components/Leaderboard'), {
       ))}
     </div>
   ),
-  ssr: false, // Disabling SSR for this heavily interactive component as per requirements
 });
 
 export default function Home() {

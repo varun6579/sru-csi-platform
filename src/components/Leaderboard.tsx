@@ -86,12 +86,12 @@ export default function Leaderboard() {
                   className="group hover:bg-slate-800/30 transition-colors duration-200"
                 >
                   <td className="px-6 py-4">
-                    <span className={\`inline-flex items-center justify-center w-8 h-8 rounded-full font-bold \${
+                    <span className={`inline-flex items-center justify-center w-8 h-8 rounded-full font-bold ${
                       entry.rank === 1 ? 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/30' :
                       entry.rank === 2 ? 'bg-slate-300/20 text-slate-300 border border-slate-300/30' :
                       entry.rank === 3 ? 'bg-orange-500/20 text-orange-400 border border-orange-500/30' :
                       'bg-slate-800 text-slate-400'
-                    }\`}>
+                    }`}>
                       {entry.rank}
                     </span>
                   </td>
